@@ -10,6 +10,14 @@
 * It should be a String.
 **/
 
+var firstName = "Zach";
+console.log(firstName);
+
+var lastName = "Grace";
+console.log(lastName);
+
+var birthPlace = "Kalihi";
+console.log(birthPlace);
 
 
 /**
@@ -22,7 +30,11 @@
 * Their values should be a Number
 **/
 
+var favoriteNumber = 4;
+var currentYear = 2016;
+var thatOnePrinceSong = 1;
 
+console.log(favoriteNumber, currentYear, thatOnePrinceSong);
 
 /**
 * #3
@@ -34,7 +46,12 @@
 * Their values should be a Boolean
 **/
 
+var isDaytime = !true;
+var isLeftHanded = false;
+var inHawaii = true;
+var isHappyCoding = !false;
 
+console.log(isDaytime, isLeftHanded, inHawaii, isHappyCoding)
 
 /**
 * #4
@@ -45,7 +62,9 @@
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
+console.log(enrolledAtDevLeague, completedFridayPrep);
 
 /**
 * #5a
@@ -56,6 +75,8 @@
 * which can be found along the west coast of The United States.
 **/
 
+var westCoast = ["Oregon", "Washington", "California", "Hawaii"];
+console.log(westCoast);
 
 
 /**
@@ -67,6 +88,8 @@
 * Have at least ten even values in this array.
 **/
 
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+console.log(evenNumbers);
 
 
 /**
@@ -80,7 +103,20 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
+var sumOfNumbers = 0;
+console.log(sumOfNumbers);
 
+sumOfNumbers = 3 + 4 + 5;
+console.log(sumOfNumbers);
+
+sumOfNumbers = 3 - 4 - 5;
+console.log(sumOfNumbers);
+
+sumOfNumbers = 3 * 4 * 5;
+console.log(sumOfNumbers);
+
+sumOfNumbers = 3 / 4 / 5;
+console.log(sumOfNumbers);
 
 
 /**
@@ -101,6 +137,15 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = ("Tacocat" === "tacocat");
+console.log(isEqual);
+
+var isEqual = ("3" === 3);
+console.log(isEqual);
+
+var isEqual = ("3" == 3);
+console.log(isEqual);
+
 
 
 /**
@@ -119,6 +164,14 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
+var generalContainer = 42;
+console.log(generalContainer);
+
+generalContainer +=42;
+console.log(generalContainer);
+
+generalContainer -=3;
+console.log(generalContainer);
 
 
 /**
